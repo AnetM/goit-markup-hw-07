@@ -15,29 +15,8 @@
   --icon-fill-color: #ffffff;
 }
 
-body {
-  background-color: #ffffff;
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  line-height: 1.71;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  outline: 2px solid tomato;
-}
-
 .container.features {
   padding-top: 94px;
-}
-
-.container.nav {
-  height: 80px;
 }
 
 .feature-list {
@@ -73,67 +52,7 @@ h2 {
   overflow: hidden;
 }
 
-/* Header */
-
-.logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.02em;
-
-  text-decoration: none;
-
-  margin-right: 93px;
-}
-
-.logo-half-one {
-  color: var(--accent-color);
-}
-
-.logo-half-two {
-  color: #000;
-}
-
 /* Site nav */
-
-.container-main-nav {
-  display: flex;
-  margin-right: auto;
-}
-
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.site-nav {
-  display: flex;
-  width: 294px;
-  text-decoration: none;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.site-nav .link {
-  color: var(--title-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  text-decoration: none;
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
-.site-nav .link.current {
-  color: var(--accent-color);
-}
 
 .link.current::after {
   content: "";
@@ -148,65 +67,6 @@ h2 {
   bottom: 0;
 }
 
-.container.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.auth-nav.list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.phone-icon,
-.mail-icon {
-  margin-right: 10px;
-  fill: #757575;
-}
-
-.mail-icon:hover,
-.phone-icon:hover .mail-icon:focus,
-.phone-icon:focus {
-  fill: var(--accent-color);
-}
-
-.mail-box:hover .mail-icon {
-  fill: var(--accent-color);
-}
-
-.phone-box:hover .phone-icon {
-  fill: var(--accent-color);
-}
-
-.mail-box,
-.phone-box {
-  display: flex;
-  align-items: center;
-}
-
-.mail-box {
-  margin-right: 30px;
-}
-
-.mail,
-.tel {
-  color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  text-decoration: none;
-}
-
-.mail:hover,
-.tel:hover,
-.mail:focus,
-.tel:focus {
-  color: var(--accent-color);
-}
 /* Hero */
 
 .hero-title {
@@ -366,6 +226,7 @@ h2 {
   cursor: pointer;
   fill: #000000;
   padding: 0;
+  line-height: 10px;
 
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -618,100 +479,4 @@ h2 {
 
 .button-wrapper {
   text-align: center;
-}
-
-/* Footer */
-
-footer {
-  background-color: #2f303a;
-}
-
-.container.footer {
-  display: flex;
-}
-
-.adress-container {
-  margin-right: 70px;
-}
-
-.logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.02em;
-
-  text-decoration: none;
-}
-
-.footer .logo {
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-.logo-half-one {
-  color: var(--accent-color);
-}
-
-.footer .logo-half-two {
-  color: #ffffff;
-}
-
-.footer .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.adress {
-  color: var(--hero-adress-title-color);
-  font-style: normal;
-
-  font-weight: 400;
-}
-
-.adress a {
-  color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
-  text-decoration: none;
-}
-
-.join-list-container {
-  width: 206px;
-}
-
-.join-list-container .title {
-  color: var(--hero-adress-title-color);
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-}
-
-.join-list {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-
-  padding: 0;
-}
-
-.join-list-box {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-}
-
-.join-list-box:hover {
-  width: 44px;
-  height: 44px;
-  background-color: var(--accent-color);
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.join-list-icon {
-  margin: auto;
-  fill: var(--icon-fill-color);
 }
