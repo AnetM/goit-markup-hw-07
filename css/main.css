@@ -624,6 +624,183 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+footer {
+  background-color: #2f303a;
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.footer .logo-half-two {
+  color: #ffffff;
+}
+
+.adress {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.adress a {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.join-list-container {
+  width: 206px;
+}
+
+.join-list-container .title {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.join-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+.join-list-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.join-list-box:hover {
+  width: 44px;
+  height: 44px;
+  background-color: #2196f3;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.join-list-icon {
+  margin: auto;
+  fill: #ffffff;
+}
+
+.adress-container {
+  margin-right: 70px;
+}
+
+.subscribe-mailing {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 570px;
+  height: 86px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-field-submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.form-field-submit .submit-btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #2196f3;
+  border: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.form-field-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer input[type="email"] {
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-top: 0%;
+}
+
+.form-field-mail input[placeholder="E-mail"] {
+  font-size: 16px;
+  line-height: 1.25;
+  padding-left: 16px;
+}
+
+.icon-send {
+  margin-left: 10px;
+}
+
 .feature-list, .whatwedo-list, .employees-list {
   display: -webkit-box;
   display: -ms-flexbox;
