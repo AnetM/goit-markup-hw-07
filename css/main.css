@@ -276,4 +276,62 @@
 .button-wrapper {
   text-align: center;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+}
+
+.list-item .icon {
+  margin: auto;
+}
+
+.feature-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.feature-list_item {
+  width: 270px;
+}
+
+.feature-list .title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 0px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.feature-list .text {
+  color: #757575;
+  margin-bottom: 0;
+  padding-bottom: 94px;
+}
 /*# sourceMappingURL=main.css.map */
