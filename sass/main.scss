@@ -1,3 +1,14 @@
 @import "./utils/variables";
+@import "./components/common";
 @import "./components/hero";
-@import "./components/advantages"
+@import "./components/advantages";
+@import "./components/what-we-do";
+
+%list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-bottom: 94px;
+    padding-left: 0px;
+    margin: 0;
+}

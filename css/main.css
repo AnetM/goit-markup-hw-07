@@ -1,3 +1,14 @@
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+
 .section.hero {
   background-color: #c4c4c4;
   max-width: 1600px;
@@ -288,6 +299,10 @@
   overflow: hidden;
 }
 
+.container.features {
+  padding-top: 94px;
+}
+
 .list-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,17 +315,6 @@
 
 .list-item .icon {
   margin: auto;
-}
-
-.feature-list {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .feature-list_item {
@@ -332,6 +336,18 @@
 .feature-list .text {
   color: #757575;
   margin-bottom: 0;
+}
+
+.feature-list, .whatwedo-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
   padding-bottom: 94px;
+  padding-left: 0px;
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */

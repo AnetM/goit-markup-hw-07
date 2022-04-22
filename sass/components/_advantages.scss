@@ -9,6 +9,10 @@
     overflow: hidden;
 }
 
+.container.features {
+    padding-top: 94px;
+}
+
 .list-item {
     display: flex;
     width: 270px;
@@ -22,10 +26,7 @@
 }
 
 .feature-list {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    justify-content: space-between;
+    @extend %list;
 
     &_item {
     width: 270px;
@@ -48,7 +49,7 @@
     & .text {
         color: $primary-text-color;
         margin-bottom: 0;
-        padding-bottom: 94px;
+        
     }
 
 }
